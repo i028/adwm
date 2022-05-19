@@ -67,9 +67,9 @@ static const char *roficmd[] = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[] = { "st", NULL };
 static const char *alacmd[] = { "alacritty", NULL };
 static const char *flame[] = { "flameshot", "gui", NULL };
-static const char *volup[] = { "/home/ss/adwm/dwm/script/volup.sh", NULL };
-static const char *voldw[] = { "/home/ss/adwm/dwm/script/voldw.sh", NULL };
-static const char *volmu[] = { "/home/ss/adwm/dwm/script/volmu.sh", NULL };
+static const char *volup[] = { "/home/ss/adwm/script/volup.sh", NULL };
+static const char *voldw[] = { "/home/ss/adwm/script/voldw.sh", NULL };
+static const char *volmu[] = { "/home/ss/adwm/script/volmu.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
