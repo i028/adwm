@@ -6,8 +6,8 @@ static const unsigned int snap      = 38;       /* snap pixel */
 static const int rmaster            = 1;        /* 1 means master-area is initially on the right */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "FiraCode Nerd Font:size=16:type=Bold:antialias=true:autohint=true",
-																				"WenQuanYi Micro Hei:size=14:type=Regular:antialias=true:autohint=true",
+static const char *fonts[]          = { "FiraCode Nerd Font:size=16:type=Light:antialias=true:autohint=true",
+                                        "WenQuanYi Micro Hei:size=14:type=Light:antialias=true:autohint=true",
                                         "SauceCodePro Nerd Font:pixelsize=18:type=Regular:antialias=true:autohint=true" };
 static const char dmenufont[]       = "monospace:size=14";
 static const char col_gray1[]       = "#222222";
