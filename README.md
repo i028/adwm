@@ -7,7 +7,7 @@
 + st
 + alacritty
 + ranger
-	1. sudo pip3 install ueberzug
+	1. install ueberzug
 	2. (/.config/rc.config)
 		set preview_images true
 		set preview_images_method ueberzug
