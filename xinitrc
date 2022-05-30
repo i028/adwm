@@ -39,17 +39,14 @@ fi
 
 # ===================
 
+source $HOME/adwm/script/statusbar.sh
+
 numlockx &
 
 nitrogen --restore &
 
 picom &
 
-source $HOME/adwm/script/statusbar.sh
-
 #fcitx5 &
-
-
-
 
 exec dwm 
