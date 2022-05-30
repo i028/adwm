@@ -12,6 +12,8 @@ cd ../
 
 cp xinitrc ~/.xinitrc
 
-echo "if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+echo "
+
+if [[ ! \$DISPLAY && \$XDG_VTNR -eq 1 ]]; then
   exec startx
 fi" >> ~/.bash_profile
