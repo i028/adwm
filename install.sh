@@ -8,6 +8,8 @@ sudo make clean install && make clean
 
 cd ../st && make clean &> /dev/null
 sudo make clean install && make clean
+cd ../slock && make clean &> /dev/null
+sudo make clean install && make clean
 cd ../
 
 cp xinitrc ~/.xinitrc
